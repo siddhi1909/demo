@@ -11,3 +11,8 @@
 
 I have created a manual testing Document. Please check this link: 
 https://github.com/siddhi1909/star_wars/blob/master/Star%20Wars%20manual%20testing.pdf
+
+
+3. For Unit test. I've used jest. You can unit test the code with below command
+
+> npm test
