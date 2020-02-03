@@ -138,7 +138,7 @@ const Dashboard = () => {
                                                          }}
                                                     >
                                                         <span
-                                                            className="planet-title">{planet.name}-{planet.population}-{width}-{widthOnPopulation(planet.population)}</span>
+                                                            className="planet-title">{planet.name}</span>
                                                     </div>
                                                 )
                                                 :
