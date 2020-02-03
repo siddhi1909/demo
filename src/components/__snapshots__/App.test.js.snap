@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< App /> renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="star-wars-logo.png"
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <form
+      className="form-box"
+      id="login"
+      onSubmit={[Function]}
+    >
+      
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="username"
+        >
+          Username
+        </label>
+        <input
+          className="form-control"
+          id="username"
+          name="username"
+          onChange={[Function]}
+          placeholder="Username"
+          required={true}
+          type="text"
+          value=""
+        />
+        <div
+          className="invalid-feedback"
+        >
+          Please enter a valid username.
+        </div>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          className="form-control"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          required={true}
+          type="password"
+          value=""
+        />
+        <div
+          className="invalid-feedback"
+        >
+          Please enter your password to continue.
+        </div>
+      </div>
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Sign in
+      </button>
+    </form>
+  </div>
+</div>
+`;
